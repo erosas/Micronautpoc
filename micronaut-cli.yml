@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.bytestream
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, aws-cdk, data, data-jdbc, flyway, gradle, http-client, jackson-databind, jdbc-hikari, kotest, kotlin, kotlin-application, kotlin-build, logback, micronaut-aot, micronaut-build, micronaut-validation, multi-tenancy, netty-server, postgres, readme, shade, testcontainers, yaml]
