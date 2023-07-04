@@ -1,4 +1,9 @@
 datasources:
   default:
-    url: jdbc:tc:postgresql:14:///postgres
+    url: jdbc:tc:postgresql:15:///postgres
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    schema-generate: CREATE_DROP
+flyway:
+  datasources:
+    default:
+      enabled: false

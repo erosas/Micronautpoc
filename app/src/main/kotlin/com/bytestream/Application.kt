@@ -1,7 +1,11 @@
 package com.bytestream
 
 import io.micronaut.runtime.Micronaut.run
-fun main(args: Array<String>) {
-	run(*args)
-}
 
+
+object Application {
+	@JvmStatic
+	fun main(args: Array<String>) {
+		run(Application.javaClass)
+	}
+}
